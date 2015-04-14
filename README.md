@@ -4,7 +4,7 @@ Use Slacks Incoming Webhooks to send messages into slack
 `npm install `
 
 ```
-var slack = require('./slack')
+var slack = require('theahindle-node-slack')
     .setHookUrl('https://hooks.slack.com/services/TAAAAAA/BAAAAAA/siyefyiUH7DUU2bud7')
     .setUsername('MyAppIsAwesome!')
     .setChannel('#awesome-notifications');

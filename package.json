@@ -1,0 +1,23 @@
+{
+  "name": "theahindle/node-slack",
+  "version": "1.0.0",
+  "description": "Use Slacks Incoming Webhooks to send messages into slack",
+  "main": "slack.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo 'Sorry!' && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theahindle/node-slack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theahindle/node-slack/issues"
+  },
+  "homepage": "https://github.com/theahindle/node-slack"
+}

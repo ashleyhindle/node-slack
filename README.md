@@ -1,7 +1,7 @@
 # node-slack
 Use Slacks Incoming Webhooks to send messages into slack
 
-`npm install `
+`npm install theahindle-node-slack`
 
 ```
 var slack = require('theahindle-node-slack')

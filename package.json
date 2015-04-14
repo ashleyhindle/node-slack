@@ -4,6 +4,13 @@
   "version": "1.0.2",
   "description": "Use Slacks Incoming Webhooks to send messages into slack",
   "main": "slack.js",
+  "keywords": [
+    "slack",
+    "webhook",
+    "notify",
+    "notification",
+    "messaging"
+  ],
   "dependencies": {
   },
   "devDependencies": {

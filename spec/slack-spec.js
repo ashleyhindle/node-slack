@@ -21,27 +21,27 @@ describe('setHookUrl', function () {
 });
 
 describe('setUsername', function () {
+    var username = 'MrSlack';
+    var result = slack.setUsername(username);
+
     it('should return object', function () {
-        var result = slack.setUsername('MrSlack');
         expect(typeof result).toBe('object');
     });
 
-    it('should not modify usernamej', function () {
-	var username = 'MrSlack';
-        var result = slack.setChannel(username);
+    it('should not modify username', function () {
         expect(result.username).toBe(username);
     });
 });
 
 describe('setChannel', function () {
+    var channel = '#MrSlack';
+    var result = slack.setChannel(channel);
+
     it('should return object', function () {
-        var result = slack.setChannel('#MrSlack');
         expect(typeof result).toBe('object');
     });
 
     it('should not modify channel', function () {
-	var channel = '#MrSlack';
-        var result = slack.setChannel(channel);
         expect(result.channel).toBe(channel);
     });
 });

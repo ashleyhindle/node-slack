@@ -1,7 +1,7 @@
 {
   "name": "theahindle-node-slack",
   "author": "Ashley Hindle <me@theahindle.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use Slacks Incoming Webhooks to send messages into slack",
   "main": "slack.js",
   "dependencies": {

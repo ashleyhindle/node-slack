@@ -1,5 +1,5 @@
 {
-  "name": "theahindle/node-slack",
+  "name": "theahindle-node-slack",
   "version": "1.0.0",
   "description": "Use Slacks Incoming Webhooks to send messages into slack",
   "main": "slack.js",

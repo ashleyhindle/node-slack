@@ -1,5 +1,5 @@
-# node-slack
-Use Slacks Incoming Webhooks to send messages into slack
+# theahindle-node-slack
+Basic module to use Slacks Incoming Webhooks to send messages into slack
 
 `npm install theahindle-node-slack`
 
